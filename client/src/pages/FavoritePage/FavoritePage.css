@@ -1,0 +1,15 @@
+.cars-catalog__list--vertical {
+    display: grid;
+    gap: 36px;
+}
+
+.cars-catalog__list--vertical .cars-catalog__item {
+    max-width: 1920px;
+    min-height: 332px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.cars-catalog__list--vertical .cars-catalog__item:last-child {
+    border: none;
+}
+
